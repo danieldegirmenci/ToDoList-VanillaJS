@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #04293A;
+}
+
+ul {
+    position: absolute;
+    padding: 35px 35px 100px 35px;
+    left: 26%;
+    width: 74%;
+    height: 100%;
+    background-color: #04293A;
+
+
+}
+
+li {
+    position: relative;
+    border-radius: 10px;
+    display: inline;
+    width: 200px;
+    height: 150px;
+    background-color: #B1B2FF;
+    list-style-type: none;
+    margin: 10px;
+
+    float: left;
+    box-shadow: 1px 1px 8px #A1A2FF;
+
+}
+
+h1 {
+    text-shadow: 1px 1px 2px #383838;
+    position: fixed;
+    padding: 10px 10px 0 10px;
+    font-family: monospace;
+    text-align: center;
+    font-size: 36px;
+    font-variant: small-caps;
+    color: #04293A;
+    background-color: #B1B2FF;
+    z-index: 1;
+    left: 0;
+    width: 23%;
+    border-radius: 25px;
+}
+
+form {
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+
+    position: fixed;
+    display: block;
+    min-width: 200px;
+    margin: 0;
+    height: 100%;
+    width: 26%;
+    background-color: #B1B2FF;
+    box-shadow: 1px 1px 5px #A1A2FF;
+}
+
+
+.closeButton {
+
+    background-color: #FF605C;
+    left: 181px;
+
+}
+
+.hideButton {
+
+    background-color: #FFBD44;
+    left: 151px;
+}
+
+.doneButton {
+
+    background-color: #00CA4E;
+    left: 121px;
+
+}
+
+
+.textPart {
+    font-size: 14px;
+    font-weight: 500;
+    
+    text-indent: 6px;
+    color: 04293A;
+    overflow-wrap: break-word;
+    overflow-y: hidden;
+    position: relative;
+    top: -10px;
+    margin: 10px 20px;
+    display: block;
+    max-width: 75%;
+    min-height: 75px;
+    background-color: #B1B2FF;
+    text-transform: capitalize;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.heading {
+    color: #04293A;
+    overflow: hidden;
+    font-weight: 500;
+    padding-left: 6px;
+    z-index: 0;
+    max-width: 105px;
+    background-color: #B1B2FF;
+    position: relative;
+    left: 5px;
+    top: -13px;
+    overflow-wrap: break-word;
+    text-transform: uppercase;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.btn {
+    opacity: 0.9;
+    border: none;
+    z-index: 1;
+    margin: 0;
+    position: relative;
+    width: 11px;
+    height: 11px;
+    top: 3px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 3px #383838;
+
+
+}
+
+.btn:hover {
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+}
+
+
+
+.hideButton:disabled {
+
+    opacity: 0.8;
+    width: 11px;
+    height: 11px;
+}
+
+.done {
+    opacity: 0.9;
+}
+
+.hided {
+    opacity: 0.9;
+}
+
+
+
+::placeholder {
+    color: #04293A;
+    font-size: 13px;
+
+}
+
+#heading {
+
+
+    position: relative;
+    min-width: 165px;
+    width: auto;
+    max-width: 250px;
+    height: 55px;
+    padding: 0px 0px 0px 15px;
+    border-radius: 5px;
+    background-color: #B1B2FF;
+    position: absolute;
+    top: 156px;
+    left: 8%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border: none;
+
+}
+
+#task {
+    color: #04293A;
+    position: absolute;
+    width: 70%;
+    left: 8%;
+    height: 70px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    background-color: #B1B2FF;
+    top: 240px;
+    resize: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    outline: none;
+    border: none;
+
+}
+
+input[type="button"] {
+
+    position: relative;
+    margin: 0;
+
+    background-color: #B1B2FF;
+    border-radius: 6px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    width: 70%;
+    left: 15%;
+    right: 15%;
+    top: 395px;
+}
+
+#task:focus {
+    box-shadow: 1px 1px 15px #04293A;
+
+}
+
+input[type="button"]:focus {
+    box-shadow: 1px 1px 10px #04293A;
+}
+
+input[type="text"]:focus {
+    box-shadow: 1px 1px 10px #04293A;
+    outline: none;
+
+}
+
+#remove {
+    position: relative;
+    top: 410px;
+}
+
+::selection {
+    color: #B1B2FF;
+    background-color: #04293A;
+}
