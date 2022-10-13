@@ -168,7 +168,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         }
+     
 
+
+        
         function hide() {
             const thisTask = this.parentNode;
 
