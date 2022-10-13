@@ -33,10 +33,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const task = document.querySelector("#task").value;
         const li = document.createElement("li");
 
-
         const closeButton = document.createElement("button");
         closeButton.setAttribute("class", "closeButton btn");
-
 
         const hideButton = document.createElement("button");
         hideButton.setAttribute("class", "hideButton btn");
@@ -44,22 +42,14 @@ document.addEventListener("DOMContentLoaded", function () {
         const doneButton = document.createElement("button");
         doneButton.setAttribute("class", "doneButton btn");
 
-
         const headingPart = document.createElement("div");
         headingPart.setAttribute("class", "heading");
-
-
 
         const textPart = document.createElement("div");
         textPart.setAttribute("class", "textPart");
 
-
-
-
-
         headingPart.innerHTML = document.querySelector("#heading").value;
         textPart.innerHTML = task;
-
 
         document.querySelector("#tasks").append(li);
         li.append(closeButton);
@@ -87,9 +77,6 @@ document.addEventListener("DOMContentLoaded", function () {
             removeAll.disabled = true;
         }
 
-
-
-
         closeButton.onclick = function close() {
             this.parentNode.style.display = "none";
         }
@@ -100,19 +87,13 @@ document.addEventListener("DOMContentLoaded", function () {
         let hided = false;
         hideButton.onclick = hide;
 
-
-
         function done() {
             const thisTask = this.parentNode;
 
 
-
-
             if (isDone) {
                 isDone = false;
-                
-                
-                
+
                 let id = null;
                 let pos = 66;
                 clearInterval(id);
